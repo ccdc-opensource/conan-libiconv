@@ -9,6 +9,6 @@ extends:
   template: third-party-library-all-platforms-from-conan-center.yml@templates
   parameters:
     package: libiconv
-    package_version: 1.16
+    package_version: 1.15
     source_repository: public-conan-center
     destination_repository: ccdc-3rdparty-conan

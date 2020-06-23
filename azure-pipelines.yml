@@ -12,5 +12,5 @@ extends:
     package_version: 1.15
     source_repository: public-conan-center
     destination_repository: ccdc-3rdparty-conan
-    build_types:
-      - Release
+    # see https://github.com/conan-io/conan/issues/6514
+    workaround_autotools_windows_debug_issue: True
